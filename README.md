@@ -1,6 +1,6 @@
 
 <img src = "http://i.imgur.com/HEZBnpc.png" width="65" height="65" alt = "TipEmUp icon" />
-'coz its the "Tipping Point"..'
+coz its the "Tipping Point"..
 
 TipEmUp is a tip calculator application for iOS.
 
