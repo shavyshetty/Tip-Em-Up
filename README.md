@@ -1,3 +1,5 @@
+
+<img src = "http://imgur.com/nHceYHc" alt = "TipEmUp icon" />
 TipEmUp is a tip calculator application for iOS.
 
 Submitted by: Sharvil Shetty
@@ -13,8 +15,9 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
+* [X] Remembering the bill amount across app restarts (if <10mins)
+* [X] Using locale-specific currency
+* [ ] Currency thousands separators.
 * [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
@@ -25,17 +28,20 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="http://imgur.com/giwYUXm" alt="Video Walkthrough" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Learning to create an iOS app for the very first time was a great experience. It obviously was difficult as i had to unlearn a few things which i carried over from developing Android apps. But i loved every bit of it. 
+Furthermore, i would like to add a "Help me decide" button, which would ask the user a bunch of questions and based on the response, assign a tip %. 
+
+I had added icons for the app but it did not end up showing, a fix on the card for consequent versions. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2007 [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
