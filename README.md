@@ -1,5 +1,5 @@
 
-<img src = "http://imgur.com/nHceYHc" alt = "TipEmUp icon" />
+<img src = "http://i.imgur.com/HEZBnpc.png" alt = "TipEmUp icon" />
 TipEmUp is a tip calculator application for iOS.
 
 Submitted by: Sharvil Shetty
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://imgur.com/giwYUXm" alt="Video Walkthrough" />
+<img src="http://i.imgur.com/r3DqMh5.gif" alt="Video Walkthrough" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
