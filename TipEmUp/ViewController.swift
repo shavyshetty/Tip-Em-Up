@@ -26,11 +26,10 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view, typically from a nib.
+        // Synchronise defaults
         defaults.synchronize()
         
         textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
-        //currtype = defaults.string(forKey: "currency type")!
         
         //Persists the data across restarts
         if(defaults.object(forKey: "lastlogin") == nil)
@@ -43,6 +42,7 @@ class ViewController: UIViewController{
         var timeInterval: Double = (start! as AnyObject).timeIntervalSince(end);
         timeInterval = timeInterval * -1.0;
         
+        //Greater than 10 mins elapsed?
         if(timeInterval > 600.0)
         {
             defaults.set(0, forKey: "billAmount")
@@ -55,6 +55,7 @@ class ViewController: UIViewController{
         //Make Text field first responder
         self.textBillAmount.becomeFirstResponder()
         
+        //Calulate initial results
         onBillAmountChange(self)
     }
     

@@ -20,7 +20,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
 
-        // Do any additional setup after loading the view.
+        // Sync defaults.
         DefaultSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
         CurrencyController.selectedSegmentIndex = defaults.integer(forKey: "currency type")
         
@@ -31,7 +31,7 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // Event for changing of default tip% value
     @IBAction func DefaultChanged(_ sender: Any) {
         var tipIndex = 0
         tipIndex = DefaultSelector.selectedSegmentIndex
@@ -40,7 +40,8 @@ class SettingsViewController: UIViewController {
         defaults.synchronize()
         
     }
-
+    
+    // Event for changing of default Curreny type
     @IBAction func CurrencyChanged(_ sender: Any) {
         var currIndex = 0
         currIndex = CurrencyController.selectedSegmentIndex
