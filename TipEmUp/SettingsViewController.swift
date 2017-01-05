@@ -10,7 +10,9 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    //Declaring variables
     @IBOutlet weak var DefaultSelector: UISegmentedControl!
+    @IBOutlet weak var CurrencyController: UISegmentedControl!
     let defaults = UserDefaults.standard
     
     
@@ -20,6 +22,7 @@ class SettingsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         DefaultSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
+        CurrencyController.selectedSegmentIndex = defaults.integer(forKey: "currency type")
         
     }
 
@@ -38,6 +41,14 @@ class SettingsViewController: UIViewController {
         
     }
 
+    @IBAction func CurrencyChanged(_ sender: Any) {
+        var currIndex = 0
+        currIndex = CurrencyController.selectedSegmentIndex
+        defaults.set(currIndex, forKey: "currency type")
+        print(defaults.integer(forKey: "currency type"))
+        defaults.synchronize()
+        
+    }
     /*
     // MARK: - Navigation
 
