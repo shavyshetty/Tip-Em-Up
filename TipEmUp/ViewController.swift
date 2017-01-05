@@ -30,7 +30,7 @@ class ViewController: UIViewController{
         defaults.synchronize()
         
         textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
-        currtype = defaults.string(forKey: "currency type")!
+        //currtype = defaults.string(forKey: "currency type")!
         
         //Persists the data across restarts
         if(defaults.object(forKey: "lastlogin") == nil)
