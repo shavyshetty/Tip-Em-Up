@@ -6,7 +6,7 @@ TipEmUp is a tip calculator application for iOS.
 
 Submitted by: Sharvil Shetty
 
-Time spent: 25 hours spent in total
+Time spent: 30 hours spent in total
 
 ## User Stories
 
@@ -40,8 +40,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Learning to create an iOS app for the very first time was a great experience. It obviously was difficult as i had to unlearn a few things which i carried over from developing Android apps. But i loved every bit of it. 
-Furthermore, i would like to add a "Help me decide" button, which would ask the user a bunch of questions and based on the response, assign a tip %. 
-
 I had added icons for the app but it did not end up showing, a fix on the card for consequent versions. 
 
 ## License
