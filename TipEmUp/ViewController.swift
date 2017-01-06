@@ -74,6 +74,19 @@ class ViewController: UIViewController{
         onBillAmountChange(self)
     }
     
+    //Each time the view comes to foreground
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        if dirty != 1
+        {
+            defaults.synchronize()
+            textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
+        }
+        onBillAmountChange(self)
+
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -82,12 +95,6 @@ class ViewController: UIViewController{
     //Event called when tapping anywhere on the screen
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
-        if dirty != 1
-        {
-        defaults.synchronize()
-        textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
-        }
-        onBillAmountChange(self)
     }
     
     // Event called whenever the bill amount changes
