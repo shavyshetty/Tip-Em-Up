@@ -29,14 +29,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wDn-h5-SFA">
-                                <rect key="frame" x="29" y="300" width="121" height="21"/>
+                                <rect key="frame" x="29" y="288" width="121" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.27559337998538214" green="0.15726669788800285" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" id="KCL-Kz-7Aa">
-                                <rect key="frame" x="22" y="190" width="292" height="30"/>
+                                <rect key="frame" x="22" y="156" width="292" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.027450980392156862" green="0.21176470588235294" blue="0.50980392156862742" alpha="0.35497007978723405" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,7 +47,7 @@
                                 </connections>
                             </textField>
                             <textField clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" id="Ehq-Z2-iNq">
-                                <rect key="frame" x="187" y="296" width="121" height="30"/>
+                                <rect key="frame" x="187" y="284" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.99473684210526314" green="0.98947368421052628" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -55,35 +55,35 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" id="dJX-FN-Kj7">
-                                <rect key="frame" x="159" y="358" width="155" height="30"/>
+                                <rect key="frame" x="159" y="329" width="155" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" id="rWA-kl-9In">
-                                <rect key="frame" x="193" y="396" width="121" height="36"/>
+                                <rect key="frame" x="193" y="367" width="121" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" id="zDO-IK-vtU">
-                                <rect key="frame" x="193" y="439" width="121" height="30"/>
+                                <rect key="frame" x="193" y="410" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" id="rpV-Ex-jVx">
-                                <rect key="frame" x="193" y="479" width="121" height="30"/>
+                                <rect key="frame" x="193" y="450" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" id="3JY-0V-ntp">
-                                <rect key="frame" x="22" y="249" width="292" height="29"/>
+                                <rect key="frame" x="22" y="206" width="292" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="10%"/>
@@ -96,52 +96,166 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bill Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aTG-8S-cBT">
-                                <rect key="frame" x="180" y="131" width="134" height="40"/>
+                                <rect key="frame" x="180" y="97" width="134" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="e5n-1z-oVQ">
-                                <rect key="frame" x="22" y="358" width="31" height="30"/>
+                                <rect key="frame" x="22" y="329" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="C8I-Vo-el7">
-                                <rect key="frame" x="22" y="399" width="31" height="30"/>
+                                <rect key="frame" x="22" y="370" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="gE2-al-wCl">
-                                <rect key="frame" x="22" y="440" width="31" height="30"/>
+                                <rect key="frame" x="22" y="411" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="ye1-sf-uf5">
-                                <rect key="frame" x="22" y="479" width="31" height="30"/>
+                                <rect key="frame" x="22" y="450" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="fTf-UX-5LL">
-                                <rect key="frame" x="45" y="479" width="31" height="30"/>
+                                <rect key="frame" x="45" y="450" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="T63-dq-bPW">
-                                <rect key="frame" x="45" y="440" width="31" height="30"/>
+                                <rect key="frame" x="45" y="411" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="3ba-fQ-mSU">
-                                <rect key="frame" x="68" y="479" width="31" height="30"/>
+                                <rect key="frame" x="68" y="450" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="nTR-Ub-dIK">
-                                <rect key="frame" x="68" y="440" width="31" height="30"/>
+                                <rect key="frame" x="68" y="411" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="7ah-vW-0Ex">
-                                <rect key="frame" x="45" y="399" width="31" height="30"/>
+                                <rect key="frame" x="45" y="370" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blue.png" id="Nty-ro-fKg">
-                                <rect key="frame" x="91" y="479" width="31" height="30"/>
+                                <rect key="frame" x="91" y="450" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="J3a-ul-byE">
+                                <rect key="frame" x="155" y="242" width="165" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Need help deciding?">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="18" name="GillSans-SemiBoldItalic"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="SuggestorPopUpOpen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBK-4y-oHn"/>
+                                </connections>
+                            </button>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" misplaced="YES" id="Sp8-Ee-hMm">
+                                <rect key="frame" x="0.0" y="272" width="327" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7rO-AL-13D">
+                                        <rect key="frame" x="8" y="15" width="241" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Rate your server based on:">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.030915438230000002" green="0.30567771449999998" blue="0.75094975490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="GillSans-LightItalic"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Service" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mng-MK-SDK">
+                                        <rect key="frame" x="39" y="44" width="241" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBoldItalic" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" red="0.030915438230000002" green="0.30567771449999998" blue="0.75094975490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Timeliness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uym-3x-8mw">
+                                        <rect key="frame" x="39" y="115" width="241" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBoldItalic" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" red="0.030915438230000002" green="0.30567771449999998" blue="0.75094975490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Helpfullness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8AE-vJ-gMO">
+                                        <rect key="frame" x="39" y="184" width="241" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBoldItalic" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" red="0.030915438230000002" green="0.30567771449999998" blue="0.75094975490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="6bS-AF-jik">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="7"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.55731735109517377" green="0.58143676417306744" blue="0.60514941544358969" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="U88-TT-NRb">
+                                        <rect key="frame" x="39" y="73" width="254" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.87843137250000003" green="0.91372549020000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <segments>
+                                            <segment title="Bad"/>
+                                            <segment title="Average"/>
+                                            <segment title="Good"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.029507504300000001" green="0.331673946" blue="0.83774863310000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="WLJ-ho-Ecr">
+                                        <rect key="frame" x="39" y="144" width="254" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.87843137250000003" green="0.91372549020000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <segments>
+                                            <segment title="Bad"/>
+                                            <segment title="Average"/>
+                                            <segment title="Good"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.029507504300000001" green="0.331673946" blue="0.83774863310000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="zTd-qw-vwk">
+                                        <rect key="frame" x="39" y="213" width="254" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.87843137250000003" green="0.91372549020000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <segments>
+                                            <segment title="Bad"/>
+                                            <segment title="Average"/>
+                                            <segment title="Good"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.029507504300000001" green="0.331673946" blue="0.83774863310000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="9m6-0o-rgf">
+                                        <rect key="frame" x="140" y="252" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="OK">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.029507504300000001" green="0.331673946" blue="0.83774863310000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="20" name="GillSans-SemiBoldItalic"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="SuggestionsPopUpClose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ong-6N-EQb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -157,6 +271,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="ClosePopupButton" destination="9m6-0o-rgf" id="b08-QV-tkU"/>
+                        <outlet property="HelpfullnessSuggestorControl" destination="zTd-qw-vwk" id="NWB-nH-Ibj"/>
+                        <outlet property="NeedHelpButton" destination="J3a-ul-byE" id="yap-AL-uHL"/>
+                        <outlet property="ServiceSuggestorControl" destination="U88-TT-NRb" id="cfT-sp-9Bx"/>
+                        <outlet property="SuggestorView" destination="Sp8-Ee-hMm" id="ckb-3L-RnF"/>
+                        <outlet property="TimelinessSuggestorControl" destination="WLJ-ho-Ecr" id="6oT-CQ-EvU"/>
                         <outlet property="Total2ppl" destination="rWA-kl-9In" id="5QY-lc-Hge"/>
                         <outlet property="Total3ppl" destination="zDO-IK-vtU" id="cKM-x9-3km"/>
                         <outlet property="Total4ppl" destination="rpV-Ex-jVx" id="q00-xI-MXv"/>

@@ -22,12 +22,27 @@ class ViewController: UIViewController{
     var currtype = "$"
     let TipPercentages = [0.10, 0.15, 0.20]
     let Currencies = ["$","£","₹","€"]
+    @IBOutlet weak var NeedHelpButton: UIButton!
+    
+    //suggestor view elements
+    @IBOutlet weak var SuggestorView: UIView!
+    @IBOutlet weak var ServiceSuggestorControl: UISegmentedControl!
+    @IBOutlet weak var TimelinessSuggestorControl: UISegmentedControl!
+    @IBOutlet weak var HelpfullnessSuggestorControl: UISegmentedControl!
+    @IBOutlet weak var ClosePopupButton: UIButton!
+    var dirty = 0
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Synchronise defaults
         defaults.synchronize()
+        
+        //Hide suggestions box
+        SuggestorView.isHidden = true
+        
         
         textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
         
@@ -67,8 +82,11 @@ class ViewController: UIViewController{
     //Event called when tapping anywhere on the screen
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
+        if dirty != 1
+        {
         defaults.synchronize()
         textSelector.selectedSegmentIndex = defaults.integer(forKey: "tipindex")
+        }
         onBillAmountChange(self)
     }
     
@@ -92,6 +110,48 @@ class ViewController: UIViewController{
     @IBAction func onSelectorValueChange() {
         onBillAmountChange(self)
     }
+    
+    //SuggestionsView Open
+    @IBAction func SuggestorPopUpOpen(_ sender: Any) {
+        //Assigning default values to control
+        view.endEditing(true)
+        
+        //only initilaise if using of the first time this session
+        if (dirty == 0)
+        {
+            ServiceSuggestorControl.selectedSegmentIndex = 2
+            TimelinessSuggestorControl.selectedSegmentIndex = 1
+            HelpfullnessSuggestorControl.selectedSegmentIndex = 1
+            dirty = 1
+        }
+        SuggestorView.isHidden = false
+    }
+    
+    //SuggestionsView Closed
+    
+    @IBAction func SuggestionsPopUpClose(_ sender: Any) {
+        GenerateSuggestion()
+        onBillAmountChange(self)
+        SuggestorView.isHidden = true
+    }
+    
+    func GenerateSuggestion()
+    {
+        let rating = ServiceSuggestorControl.selectedSegmentIndex + TimelinessSuggestorControl.selectedSegmentIndex + HelpfullnessSuggestorControl.selectedSegmentIndex
+        switch rating {
+        case 0,1:
+            textSelector.selectedSegmentIndex = 0
+        case 2,3:
+            textSelector.selectedSegmentIndex = 1
+        case 4,5,6:
+            textSelector.selectedSegmentIndex = 2
+        default:
+            textSelector.selectedSegmentIndex = 1
+        }
+    }
+    
+    
+    
 }
 
 
