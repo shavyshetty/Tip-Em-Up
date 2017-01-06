@@ -75,8 +75,8 @@ class ViewController: UIViewController{
     }
     
     //Each time the view comes to foreground
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         if dirty != 1
         {
             defaults.synchronize()
